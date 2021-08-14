@@ -76,5 +76,5 @@ jobs:
       - name: Deploy to portainer
         uses: fjogeleit/http-request-action@master
         with:
-          url: ${{ secrets.DEPLOY_HOOK }}
+          url: ${{ secrets.DEPLOY_HOOK_PROD }}
           method: POST
